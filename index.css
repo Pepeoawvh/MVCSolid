@@ -1,0 +1,125 @@
+body {
+    background-image:  radial-gradient(circle at top left, rgb(3, 1, 29), #002155);
+    background-repeat: no-repeat;
+    background-size: contain;
+height: auto;
+}
+
+
+.banner{
+    display: grid;
+    height: 98vh;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.title {
+  appearance: none;
+  background-color: #0a335c32;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #d76dea;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 30px 60px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+}
+
+.title:hover {
+  background-color: #224fa945;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+.title:disabled {
+  background-color: #0080ff;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959DA5;
+  cursor: default;
+}
+
+.title:active {
+  background-color: #074eb83c;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+.title:focus {
+  outline: 1px transparent;
+}
+
+.title:before {
+  display: none;
+}
+
+.title:-webkit-details-marker {
+  display: none;
+}
+
+.info{
+    display: grid;
+    margin-top: 100px;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    white-space: break-word;
+}
+
+p{
+    color: rgb(255, 233, 193);
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: white;
+}
+
+.img{
+    display: block;
+    width: 500px;
+    height: 400px;
+    background-image: url(./img/MVC3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-self: center;
+    
+}
+
+.lowerbutton {
+    display: grid;
+    justify-items: center;
+    margin: 50px;
+}
+.solid{
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: rgba(255, 255, 255, 0.102);
+    margin: 10px;
+    align-items: center;
+    justify-items: center;
+    border-radius: 100px;
+    padding-right: 10px;
+}
+span{
+    font-size: 50px;
+    color: yellow;
+}
